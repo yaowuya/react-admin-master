@@ -1,2 +1,3 @@
-# react-admin-master
-学习react
+### 笔记
+
+1. 隐藏的文件：通过npm eject显示被隐藏的文件，此命令不可逆
