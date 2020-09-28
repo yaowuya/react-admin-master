@@ -1,4 +1,6 @@
+import { Button } from "antd";
 import React, { Component } from "react";
+import "./home.scss";
 
 export default class Home extends Component {
   constructor(props) {
@@ -6,6 +8,11 @@ export default class Home extends Component {
     this.state = {};
   }
   render() {
-    return <div>home</div>;
+    return (
+      <div className="text-red">
+        home,
+        <Button type="primary">Primary Button</Button>
+      </div>
+    );
   }
 }

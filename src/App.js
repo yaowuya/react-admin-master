@@ -1,8 +1,7 @@
 import React from "react";
-import "./App.css";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import Home from "./views/Home/home";
 import About from "./views/About/about";
+import Login from "./views/login/login";
 
 class App extends React.Component {
   constructor(props) {
@@ -13,7 +12,7 @@ class App extends React.Component {
     return (
       <HashRouter>
         <Switch>
-          <Route exact component={Home} path="/"></Route>
+          <Route exact component={Login} path="/"></Route>
           <Route component={About} path="/about"></Route>
         </Switch>
       </HashRouter>
